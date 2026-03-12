@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Free learning resources for web development, cybersecurity, and DevOps — platforms, YouTube channels, and official documentation links.">
+    <title>Resources — Tech Learning Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+</head>
+
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🗺️</span>
+                TechRoadmap
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="web-development.html">Web Dev</a></li>
+                <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a href="devops.html">DevOps</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <div class="hero-badge">📚 Learning Materials</div>
+            <h1>Resources <span class="gradient-text">& Tools</span></h1>
+            <p>Curated free resources to accelerate your learning journey across all tech fields.</p>
+        </div>
+    </section>
+
+    <!-- Free Learning Platforms -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-badge">🎓 Free Platforms</span>
+                <h2>Free Learning Platforms</h2>
+                <p>Start learning today without spending a dime.</p>
+            </div>
+
+            <div class="resources-grid">
+                <a href="https://www.freecodecamp.org" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-1" id="res-fcc">
+                    <div class="resource-icon" style="background: rgba(0,184,148,0.12);">🏕️</div>
+                    <div>
+                        <h4>freeCodeCamp</h4>
+                        <p>Free coding curriculum covering HTML, CSS, JavaScript, Python, and more with hands-on
+                            projects and certifications.</p>
+                    </div>
+                </a>
+                <a href="https://www.theodinproject.com" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-2" id="res-odin">
+                    <div class="resource-icon" style="background: rgba(108,92,231,0.12);">⚔️</div>
+                    <div>
+                        <h4>The Odin Project</h4>
+                        <p>A full-stack web development curriculum with real-world projects. Open-source and
+                            community-driven.</p>
+                    </div>
+                </a>
+                <a href="https://cs50.harvard.edu" target="_blank" rel="noopener" class="resource-card reveal delay-3"
+                    id="res-cs50">
+                    <div class="resource-icon" style="background: rgba(253,121,168,0.12);">🎓</div>
+                    <div>
+                        <h4>CS50 (Harvard)</h4>
+                        <p>Harvard's introduction to computer science — one of the most popular and well-produced
+                            courses in the world.</p>
+                    </div>
+                </a>
+                <a href="https://www.khanacademy.org/computing" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-4" id="res-khan">
+                    <div class="resource-icon" style="background: rgba(0,206,201,0.12);">📐</div>
+                    <div>
+                        <h4>Khan Academy</h4>
+                        <p>Free computing and programming fundamentals with interactive exercises. Great for absolute
+                            beginners.</p>
+                    </div>
+                </a>
+                <a href="https://developer.mozilla.org" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-5" id="res-mdn">
+                    <div class="resource-icon" style="background: rgba(253,203,110,0.12);">📖</div>
+                    <div>
+                        <h4>MDN Web Docs</h4>
+                        <p>The gold standard for web development documentation. Comprehensive reference for HTML, CSS,
+                            and JavaScript.</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- YouTube Channels -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-badge">🎬 YouTube</span>
+                <h2>Recommended YouTube Channels</h2>
+                <p>Learn from the best creators in the tech community.</p>
+            </div>
+
+            <div class="resources-grid">
+                <a href="https://www.youtube.com/@TraversyMedia" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-1" id="yt-traversy">
+                    <div class="resource-icon" style="background: rgba(108,92,231,0.12);">▶️</div>
+                    <div>
+                        <h4>Traversy Media</h4>
+                        <p>Practical web development tutorials covering frameworks, tools, and real-world projects.
+                            Beginner-friendly.</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@Fireship" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-2" id="yt-fireship">
+                    <div class="resource-icon" style="background: rgba(253,121,168,0.12);">🔥</div>
+                    <div>
+                        <h4>Fireship</h4>
+                        <p>Fast-paced, visually stunning tech explanations. "100 seconds" series and deep dives into
+                            modern tools.</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@NetworkChuck" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-3" id="yt-networkchuck">
+                    <div class="resource-icon" style="background: rgba(0,184,148,0.12);">☕</div>
+                    <div>
+                        <h4>NetworkChuck</h4>
+                        <p>Engaging cybersecurity, networking, and Linux tutorials. Great energy and beginner-friendly
+                            approach.</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@TechWorldwithNana" target="_blank" rel="noopener"
+                    class="resource-card reveal delay-4" id="yt-nana">
+                    <div class="resource-icon" style="background: rgba(0,206,201,0.12);">🌍</div>
+                    <div>
+                        <h4>TechWorld with Nana</h4>
+                        <p>Excellent DevOps tutorials covering Docker, Kubernetes, CI/CD, and cloud technologies with
+                            clear explanations.</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Documentation Links -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-badge">📄 Docs</span>
+                <h2>Official Documentation</h2>
+                <p>Go straight to the source for the most accurate and up-to-date information.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card reveal delay-1" id="doc-mdn">
+                    <div class="card-icon purple">🌐</div>
+                    <h3>MDN Web Docs</h3>
+                    <p>HTML, CSS, JavaScript reference and tutorials.</p>
+                    <a href="https://developer.mozilla.org" target="_blank" rel="noopener" class="card-link">Visit →</a>
+                </div>
+                <div class="card reveal delay-2" id="doc-node">
+                    <div class="card-icon green">💚</div>
+                    <h3>Node.js Docs</h3>
+                    <p>Official Node.js API reference and guides.</p>
+                    <a href="https://nodejs.org/docs" target="_blank" rel="noopener" class="card-link">Visit →</a>
+                </div>
+                <div class="card reveal delay-3" id="doc-react">
+                    <div class="card-icon teal">⚛️</div>
+                    <h3>React Docs</h3>
+                    <p>Learn React from the official documentation with interactive examples.</p>
+                    <a href="https://react.dev" target="_blank" rel="noopener" class="card-link">Visit →</a>
+                </div>
+                <div class="card reveal delay-1" id="doc-docker">
+                    <div class="card-icon pink">🐳</div>
+                    <h3>Docker Docs</h3>
+                    <p>Complete Docker reference, tutorials, and best practices.</p>
+                    <a href="https://docs.docker.com" target="_blank" rel="noopener" class="card-link">Visit →</a>
+                </div>
+                <div class="card reveal delay-2" id="doc-aws">
+                    <div class="card-icon yellow">☁️</div>
+                    <h3>AWS Documentation</h3>
+                    <p>Comprehensive guides for all AWS services.</p>
+                    <a href="https://docs.aws.amazon.com" target="_blank" rel="noopener" class="card-link">Visit →</a>
+                </div>
+                <div class="card reveal delay-3" id="doc-k8s">
+                    <div class="card-icon purple">☸️</div>
+                    <h3>Kubernetes Docs</h3>
+                    <p>Official Kubernetes documentation and tutorials.</p>
+                    <a href="https://kubernetes.io/docs" target="_blank" rel="noopener" class="card-link">Visit →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>🗺️ TechRoadmap</h3>
+                <p>Your step-by-step guide to mastering modern technology.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Roadmaps</h4>
+                <ul>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                    <li><a href="devops.html">DevOps & Cloud</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="resources.html">Learning Platforms</a></li>
+                    <li><a href="resources.html">YouTube Channels</a></li>
+                    <li><a href="resources.html">Documentation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">The Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tech Learning Roadmap. Created for a Google Search Console Workshop Demo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cybersecurity Roadmap — Learn networking, Linux, Python, ethical hacking, penetration testing, and security tools in a structured learning path.">
+    <title>Cybersecurity Roadmap — Tech Learning Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+</head>
+
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🗺️</span>
+                TechRoadmap
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="web-development.html">Web Dev</a></li>
+                <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a href="devops.html">DevOps</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <div class="hero-badge">🔐 Security Path</div>
+            <h1>Cybersecurity <span class="gradient-text">Roadmap</span></h1>
+            <p>Follow this timeline to build your skills from networking fundamentals to advanced penetration testing.
+            </p>
+        </div>
+    </section>
+
+    <!-- Timeline Roadmap -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-badge">🛡️ Learning Timeline</span>
+                <h2>Your Cybersecurity Journey</h2>
+                <p>Each milestone builds on the last. Master the fundamentals first.</p>
+            </div>
+
+            <div class="timeline">
+
+                <!-- Step 1 -->
+                <div class="timeline-item reveal-left delay-1" id="cyber-networking">
+                    <div class="item-icon">🌐</div>
+                    <h3>Networking Basics</h3>
+                    <p>Understand TCP/IP, DNS, HTTP/HTTPS, OSI model, subnetting, firewalls, and how data travels across
+                        the internet. This is the foundation of cybersecurity.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="timeline-item reveal-right delay-2" id="cyber-linux">
+                    <div class="item-icon">🐧</div>
+                    <h3>Linux</h3>
+                    <p>Master the Linux command line, file system, permissions, shell scripting, and system
+                        administration. Most security tools run on Linux distributions like Kali.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="timeline-item reveal-left delay-3" id="cyber-python">
+                    <div class="item-icon">🐍</div>
+                    <h3>Python for Security</h3>
+                    <p>Learn Python to automate security tasks, write scripts for scanning, build custom tools, and
+                        analyze data. Python is the go-to language for cybersecurity professionals.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="timeline-item reveal-right delay-4" id="cyber-hacking">
+                    <div class="item-icon">🎯</div>
+                    <h3>Ethical Hacking</h3>
+                    <p>Learn OWASP Top 10 vulnerabilities, web application security, SQL injection, XSS, CSRF, and how
+                        attackers exploit weaknesses — so you can defend against them.</p>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="timeline-item reveal-left delay-5" id="cyber-pentest">
+                    <div class="item-icon">🔍</div>
+                    <h3>Penetration Testing</h3>
+                    <p>Put your skills to the test. Conduct authorized penetration tests using methodologies like PTES.
+                        Practice on platforms like HackTheBox, TryHackMe, and VulnHub.</p>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="timeline-item reveal-right delay-1" id="cyber-tools">
+                    <div class="item-icon">🛠️</div>
+                    <h3>Security Tools</h3>
+                    <p>Master industry tools: Nmap, Burp Suite, Wireshark, Metasploit, John the Ripper, Hashcat, and
+                        more. Learn when and how to use each tool effectively.</p>
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center mt-3 reveal">
+                <a href="resources.html" class="btn btn-secondary">📚 Browse Learning Resources</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>🗺️ TechRoadmap</h3>
+                <p>Your step-by-step guide to mastering modern technology.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Roadmaps</h4>
+                <ul>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                    <li><a href="devops.html">DevOps & Cloud</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="resources.html">Learning Platforms</a></li>
+                    <li><a href="resources.html">YouTube Channels</a></li>
+                    <li><a href="resources.html">Documentation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">The Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tech Learning Roadmap. Created for a Google Search Console Workshop Demo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

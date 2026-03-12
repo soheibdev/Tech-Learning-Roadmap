@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="About Tech Learning Roadmap — A demo project created for a Google Search Console workshop, built with HTML, CSS, and JavaScript.">
+    <title>About — Tech Learning Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+</head>
+
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🗺️</span>
+                TechRoadmap
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="web-development.html">Web Dev</a></li>
+                <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a href="devops.html">DevOps</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <div class="hero-badge">ℹ️ About This Project</div>
+            <h1>About <span class="gradient-text">TechRoadmap</span></h1>
+            <p>A demo project built with love for learning and teaching.</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="section">
+        <div class="container">
+            <div class="about-content reveal">
+                <p>
+                    <strong>Tech Learning Roadmap</strong> was created as a <strong>demo project for a Google Search
+                        Console workshop</strong>. The goal is to showcase how a well-structured, SEO-friendly website
+                    can be built using only fundamental web technologies.
+                </p>
+                <p>
+                    This site provides structured learning roadmaps for aspiring developers, security professionals, and
+                    DevOps engineers. Each roadmap breaks down complex career paths into clear, manageable learning
+                    steps.
+                </p>
+                <p>
+                    Whether you're interested in <a href="web-development.html">web development</a>, <a
+                        href="cybersecurity.html">cybersecurity</a>, or <a href="devops.html">DevOps & cloud</a>, our
+                    roadmaps guide you from the fundamentals to advanced concepts with curated <a
+                        href="resources.html">resources</a> along the way.
+                </p>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="text-center reveal" style="margin-top: var(--space-3xl);">
+                <div class="section-header">
+                    <span class="section-badge">🛠️ Built With</span>
+                    <h2>Technology Stack</h2>
+                    <p>This project uses zero frameworks — just the web platform.</p>
+                </div>
+                <div class="tech-badges">
+                    <span class="tech-badge" id="badge-html">🟠 HTML5</span>
+                    <span class="tech-badge" id="badge-css">🔵 CSS3</span>
+                    <span class="tech-badge" id="badge-js">🟡 JavaScript</span>
+                    <span class="tech-badge" id="badge-fonts">🔤 Google Fonts</span>
+                    <span class="tech-badge" id="badge-seo">🔍 SEO Optimized</span>
+                </div>
+            </div>
+
+            <!-- Features List -->
+            <div class="grid-3 mt-3">
+                <div class="card reveal delay-1" id="feature-responsive">
+                    <div class="card-icon purple">📱</div>
+                    <h3>Fully Responsive</h3>
+                    <p>Looks great on mobile, tablet, and desktop with a mobile-first approach and adaptive layouts.</p>
+                </div>
+                <div class="card reveal delay-2" id="feature-darkmode">
+                    <div class="card-icon teal">🌙</div>
+                    <h3>Dark Mode</h3>
+                    <p>Toggle between light and dark themes. Your preference is saved and persisted across pages.</p>
+                </div>
+                <div class="card reveal delay-3" id="feature-animations">
+                    <div class="card-icon pink">✨</div>
+                    <h3>Smooth Animations</h3>
+                    <p>Scroll-reveal effects, hover transitions, gradient animations, and interactive roadmap nodes.</p>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center mt-3 reveal">
+                <a href="index.html" class="btn btn-primary">🏠 Back to Home</a>
+                <a href="web-development.html" class="btn btn-secondary" style="margin-left: var(--space-md);">🗺️
+                    Explore Roadmaps</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>🗺️ TechRoadmap</h3>
+                <p>Your step-by-step guide to mastering modern technology.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Roadmaps</h4>
+                <ul>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                    <li><a href="devops.html">DevOps & Cloud</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="resources.html">Learning Platforms</a></li>
+                    <li><a href="resources.html">YouTube Channels</a></li>
+                    <li><a href="resources.html">Documentation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">The Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tech Learning Roadmap. Created for a Google Search Console Workshop Demo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

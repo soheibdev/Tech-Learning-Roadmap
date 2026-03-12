@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Web Development Roadmap — Step-by-step learning path covering HTML, CSS, JavaScript, React, Node.js, Express, databases, and more.">
+    <title>Web Development Roadmap — Tech Learning Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+</head>
+
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🗺️</span>
+                TechRoadmap
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="web-development.html">Web Dev</a></li>
+                <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a href="devops.html">DevOps</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <div class="hero-badge">💻 Full-Stack Path</div>
+            <h1>Web Development <span class="gradient-text">Roadmap</span></h1>
+            <p>Master frontend and backend development step by step. Click any step to learn more.</p>
+        </div>
+    </section>
+
+    <!-- Frontend Roadmap -->
+    <section class="section">
+        <div class="container">
+
+            <div class="roadmap-divider reveal">
+                <h2>🎨 Frontend Development</h2>
+            </div>
+
+            <div class="roadmap-container">
+                <div class="roadmap-track">
+
+                    <div class="roadmap-step reveal delay-1 active" id="step-html">
+                        <div class="step-header">
+                            <span class="step-number">1</span>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Learn the foundation of the web. Understand semantic HTML elements, forms, tables, media
+                                embedding, and accessibility best practices. HTML is the skeleton of every web page.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">Semantic HTML</span>
+                                <span class="step-tag">Forms</span>
+                                <span class="step-tag">Accessibility</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-step reveal delay-2" id="step-css">
+                        <div class="step-header">
+                            <span class="step-number">2</span>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Style your web pages with CSS. Learn Flexbox, Grid, animations, responsive design with
+                                media queries, custom properties, and modern layout techniques.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">Flexbox</span>
+                                <span class="step-tag">Grid</span>
+                                <span class="step-tag">Responsive</span>
+                                <span class="step-tag">Animations</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-step reveal delay-3" id="step-js">
+                        <div class="step-header">
+                            <span class="step-number">3</span>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Add interactivity to your websites. Master DOM manipulation, events, ES6+ features,
+                                async/await, fetch API, and object-oriented programming concepts.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">DOM</span>
+                                <span class="step-tag">ES6+</span>
+                                <span class="step-tag">Async</span>
+                                <span class="step-tag">Fetch API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-step reveal delay-4" id="step-git">
+                        <div class="step-header">
+                            <span class="step-number">4</span>
+                            <h3>Git & GitHub</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Version control is essential. Learn Git basics — branching, merging, pull requests, and
+                                collaboration workflows on GitHub. Every developer must know this.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">Version Control</span>
+                                <span class="step-tag">Branching</span>
+                                <span class="step-tag">Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-step reveal delay-5" id="step-react">
+                        <div class="step-header">
+                            <span class="step-number">5</span>
+                            <h3>React / Next.js</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Build modern single-page applications with React. Learn components, hooks, state
+                                management, routing, and server-side rendering with Next.js.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">Components</span>
+                                <span class="step-tag">Hooks</span>
+                                <span class="step-tag">Next.js</span>
+                                <span class="step-tag">SSR</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Backend Roadmap -->
+            <div class="roadmap-divider reveal" style="margin-top: var(--space-3xl);">
+                <h2>🔧 Backend Development</h2>
+            </div>
+
+            <div class="roadmap-container">
+                <div class="roadmap-track">
+
+                    <div class="roadmap-step reveal delay-1" id="step-node">
+                        <div class="step-header">
+                            <span class="step-number">6</span>
+                            <h3>Node.js</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Run JavaScript on the server. Learn about the Node.js runtime, npm, modules, file system,
+                                and event-driven architecture for building scalable backends.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">Runtime</span>
+                                <span class="step-tag">npm</span>
+                                <span class="step-tag">Modules</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-step reveal delay-2" id="step-express">
+                        <div class="step-header">
+                            <span class="step-number">7</span>
+                            <h3>Express.js</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Build REST APIs quickly with Express.js. Handle routing, middleware, authentication,
+                                error handling, and template engines for server-rendered views.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">REST APIs</span>
+                                <span class="step-tag">Middleware</span>
+                                <span class="step-tag">Routing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-step reveal delay-3" id="step-apis">
+                        <div class="step-header">
+                            <span class="step-number">8</span>
+                            <h3>APIs & Authentication</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Design and consume RESTful APIs and GraphQL. Implement authentication with JWT, OAuth,
+                                and session management for secure user flows.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">REST</span>
+                                <span class="step-tag">GraphQL</span>
+                                <span class="step-tag">JWT</span>
+                                <span class="step-tag">OAuth</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-step reveal delay-4" id="step-db">
+                        <div class="step-header">
+                            <span class="step-number">9</span>
+                            <h3>Databases (MongoDB / SQL)</h3>
+                        </div>
+                        <div class="step-description">
+                            <p>Store and manage data with databases. Learn SQL (PostgreSQL/MySQL) for relational data
+                                and MongoDB for document-based NoSQL storage. Understand schemas, queries, and ORMs.</p>
+                            <div class="step-tags">
+                                <span class="step-tag">SQL</span>
+                                <span class="step-tag">MongoDB</span>
+                                <span class="step-tag">Mongoose</span>
+                                <span class="step-tag">ORM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center mt-3 reveal">
+                <a href="resources.html" class="btn btn-secondary">📚 Browse Learning Resources</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>🗺️ TechRoadmap</h3>
+                <p>Your step-by-step guide to mastering modern technology.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Roadmaps</h4>
+                <ul>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                    <li><a href="devops.html">DevOps & Cloud</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="resources.html">Learning Platforms</a></li>
+                    <li><a href="resources.html">YouTube Channels</a></li>
+                    <li><a href="resources.html">Documentation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">The Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tech Learning Roadmap. Created for a Google Search Console Workshop Demo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

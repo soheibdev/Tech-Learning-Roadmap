@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="DevOps & Cloud Roadmap — Learn Linux, Docker, CI/CD, Kubernetes, and cloud platforms like AWS and Azure in a structured path.">
+    <title>DevOps & Cloud Roadmap — Tech Learning Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+</head>
+
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🗺️</span>
+                TechRoadmap
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="web-development.html">Web Dev</a></li>
+                <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                <li><a href="devops.html">DevOps</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <div class="hero-badge">☁️ Cloud Path</div>
+            <h1>DevOps & Cloud <span class="gradient-text">Roadmap</span></h1>
+            <p>From operating systems to cloud-native infrastructure — automate, deploy, and scale.</p>
+        </div>
+    </section>
+
+    <!-- Flow Cards Roadmap -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header reveal">
+                <span class="section-badge">⚙️ Learning Path</span>
+                <h2>Your DevOps Journey</h2>
+                <p>Master each tool and concept as you progress through the DevOps pipeline.</p>
+            </div>
+
+            <div class="flow-grid">
+
+                <div class="flow-card reveal delay-1" id="devops-linux">
+                    <span class="flow-number">1</span>
+                    <div class="flow-icon">🐧</div>
+                    <h3>Linux</h3>
+                    <p>Master the command line, file system, permissions, shell scripting, system administration, and
+                        process management. Linux is the backbone of cloud infrastructure.</p>
+                </div>
+
+                <div class="flow-card reveal delay-2" id="devops-docker">
+                    <span class="flow-number">2</span>
+                    <div class="flow-icon">🐳</div>
+                    <h3>Docker</h3>
+                    <p>Containerize your applications. Learn Docker images, containers, volumes, networks, Docker
+                        Compose, and multi-stage builds for reproducible environments.</p>
+                </div>
+
+                <div class="flow-card reveal delay-3" id="devops-cicd">
+                    <span class="flow-number">3</span>
+                    <div class="flow-icon">🔄</div>
+                    <h3>CI/CD</h3>
+                    <p>Automate your build, test, and deployment pipelines. Learn GitHub Actions, GitLab CI, Jenkins,
+                        and deployment strategies like blue-green and canary releases.</p>
+                </div>
+
+                <div class="flow-card reveal delay-4" id="devops-k8s">
+                    <span class="flow-number">4</span>
+                    <div class="flow-icon">☸️</div>
+                    <h3>Kubernetes</h3>
+                    <p>Orchestrate containers at scale. Learn pods, deployments, services, ingress, config maps,
+                        secrets, Helm charts, and cluster management fundamentals.</p>
+                </div>
+
+                <div class="flow-card reveal delay-5" id="devops-cloud">
+                    <span class="flow-number">5</span>
+                    <div class="flow-icon">☁️</div>
+                    <h3>Cloud (AWS / Azure)</h3>
+                    <p>Deploy to the cloud. Learn compute (EC2/VMs), storage (S3/Blob), networking (VPC), serverless
+                        (Lambda/Functions), IAM, and infrastructure as code with Terraform.</p>
+                </div>
+
+            </div>
+
+            <!-- Bonus: Learning Path Visual -->
+            <div class="text-center mt-3 reveal" style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                <div class="card">
+                    <div class="card-icon green">🎓</div>
+                    <h3>What's Next?</h3>
+                    <p>After completing this roadmap, explore monitoring (Prometheus, Grafana), infrastructure as code
+                        (Terraform, Pulumi), and advanced cloud architectures. Check our resources page for recommended
+                        learning materials.</p>
+                    <a href="resources.html" class="card-link">Browse Resources →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>🗺️ TechRoadmap</h3>
+                <p>Your step-by-step guide to mastering modern technology.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Roadmaps</h4>
+                <ul>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="cybersecurity.html">Cybersecurity</a></li>
+                    <li><a href="devops.html">DevOps & Cloud</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="resources.html">Learning Platforms</a></li>
+                    <li><a href="resources.html">YouTube Channels</a></li>
+                    <li><a href="resources.html">Documentation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">The Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tech Learning Roadmap. Created for a Google Search Console Workshop Demo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

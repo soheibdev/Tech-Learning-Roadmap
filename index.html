@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tech Learning Roadmap — Your step-by-step guide to mastering web development, cybersecurity, DevOps, and cloud technologies. Start your tech journey today.">
+  <title>Tech Learning Roadmap — Learn Technology Step by Step</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+</head>
+<body>
+
+  <!-- Scroll Progress -->
+  <div id="scroll-progress"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">🗺️</span>
+        TechRoadmap
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="web-development.html">Web Dev</a></li>
+        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+        <li><a href="devops.html">DevOps</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🚀 Your Learning Journey Starts Here</div>
+      <h1>Learn Technology<br><span class="gradient-text">Step by Step</span></h1>
+      <p>Curated learning roadmaps to guide you through web development, cybersecurity, DevOps, and cloud — from beginner to professional.</p>
+      <div class="hero-buttons">
+        <a href="web-development.html" class="btn btn-primary">Start Learning →</a>
+        <a href="#roadmaps" class="btn btn-outline">Explore Roadmaps</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Technologies -->
+  <section class="section" id="technologies">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">🔥 Trending</span>
+        <h2>Popular Technologies</h2>
+        <p>Explore the most in-demand skills in the tech industry today.</p>
+      </div>
+      <div class="grid-4">
+        <div class="card reveal delay-1" id="tech-web">
+          <div class="card-icon purple">🌐</div>
+          <h3>Web Development</h3>
+          <p>Build modern websites and web applications with the latest technologies.</p>
+          <a href="web-development.html" class="card-link">View Roadmap →</a>
+        </div>
+        <div class="card reveal delay-2" id="tech-cyber">
+          <div class="card-icon teal">🔐</div>
+          <h3>Cybersecurity</h3>
+          <p>Learn to protect systems and networks from digital threats and attacks.</p>
+          <a href="cybersecurity.html" class="card-link">View Roadmap →</a>
+        </div>
+        <div class="card reveal delay-3" id="tech-devops">
+          <div class="card-icon pink">⚙️</div>
+          <h3>DevOps & Cloud</h3>
+          <p>Automate deployments and scale applications with cloud infrastructure.</p>
+          <a href="devops.html" class="card-link">View Roadmap →</a>
+        </div>
+        <div class="card reveal delay-4" id="tech-ai">
+          <div class="card-icon green">🤖</div>
+          <h3>AI & Data Science</h3>
+          <p>Dive into machine learning, data analysis, and artificial intelligence.</p>
+          <a href="resources.html" class="card-link">View Resources →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Learning Roadmaps -->
+  <section class="section" id="why-roadmap" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">💡 Benefits</span>
+        <h2>Why Follow a Learning Roadmap?</h2>
+        <p>Structured learning is the fastest path from beginner to professional.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card reveal delay-1" id="benefit-1">
+          <div class="card-icon purple">🎯</div>
+          <h3>Clear Direction</h3>
+          <p>No more guessing what to learn next. A roadmap gives you a clear, step-by-step path from start to finish.</p>
+        </div>
+        <div class="card reveal delay-2" id="benefit-2">
+          <div class="card-icon teal">⏱️</div>
+          <h3>Save Time</h3>
+          <p>Avoid wasting months on the wrong tools. Focus on what actually matters for your career goals.</p>
+        </div>
+        <div class="card reveal delay-3" id="benefit-3">
+          <div class="card-icon pink">📈</div>
+          <h3>Track Progress</h3>
+          <p>See how far you've come and stay motivated as you check off skills on your learning journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore Roadmaps -->
+  <section class="section" id="roadmaps">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">🗺️ Roadmaps</span>
+        <h2>Explore Learning Roadmaps</h2>
+        <p>Choose your path and start building real-world skills.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card reveal delay-1" id="roadmap-web">
+          <div class="card-icon purple">💻</div>
+          <h3>Web Development</h3>
+          <p>Master HTML, CSS, JavaScript, React, Node.js, databases, and more in a structured frontend & backend path.</p>
+          <a href="web-development.html" class="card-link">Start Roadmap →</a>
+        </div>
+        <div class="card reveal delay-2" id="roadmap-cyber">
+          <div class="card-icon teal">🛡️</div>
+          <h3>Cybersecurity</h3>
+          <p>Learn networking, Linux, ethical hacking, penetration testing, and security tools step by step.</p>
+          <a href="cybersecurity.html" class="card-link">Start Roadmap →</a>
+        </div>
+        <div class="card reveal delay-3" id="roadmap-devops">
+          <div class="card-icon pink">☁️</div>
+          <h3>DevOps & Cloud</h3>
+          <p>From Linux basics to Docker, Kubernetes, CI/CD, and cloud platforms like AWS and Azure.</p>
+          <a href="devops.html" class="card-link">Start Roadmap →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🗺️ TechRoadmap</h3>
+        <p>Your step-by-step guide to mastering modern technology. Free, open, and community-driven learning paths.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Roadmaps</h4>
+        <ul>
+          <li><a href="web-development.html">Web Development</a></li>
+          <li><a href="cybersecurity.html">Cybersecurity</a></li>
+          <li><a href="devops.html">DevOps & Cloud</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="resources.html">Learning Platforms</a></li>
+          <li><a href="resources.html">YouTube Channels</a></li>
+          <li><a href="resources.html">Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">The Project</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Tech Learning Roadmap. Created for a Google Search Console Workshop Demo.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
